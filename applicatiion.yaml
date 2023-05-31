@@ -7,7 +7,8 @@ metadata:
   namespace: argo-cd1
 spec:
   # The project the application belongs to.
-  project: new  # Every application belongs to one project, if you dont specify anything then this belongs to default project.
+  project: default
+    # Every application belongs to one project, if you dont specify anything then this belongs to default project.
 
   # Source of the application manifests
   source:
